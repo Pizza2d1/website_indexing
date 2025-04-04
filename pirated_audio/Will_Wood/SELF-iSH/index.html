@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Self-ish</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #fffadb;
+        }
+        .content {
+            display: none;
+            margin-top: 20px;
+        }
+        .content.active {
+            display: block;
+        }
+        .button {
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+
+        .bgreen {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #04AA6D;
+        }
+        .bgreen:hover {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .bblue {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #3166c9;
+        }
+        .bblue:hover {
+            background-color: #3166c9;
+            color: white;
+        }
+
+        .bred {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #d30f0f;
+        }
+        .bred:hover {
+            background-color: #d30f0f;
+            color: white;
+        }
+
+        .borange {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #d30f0f;
+        }
+        .borange:hover {
+            background-color: #d30f0f;
+            color: white;
+        }
+
+        .bblack {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #000000;
+        }
+        .bblack:hover {
+            background-color: #000000;
+            color: white;
+        }
+
+    </style>
+    </head>
+    <body>
+        <h3><a href="../index.html">BACK</a></h3>
+        <h1>WILL WOOD!</h1>
+        <img src="/assets/selfish_album_cover.png" alt="Title page" width="300">
+
+        <p>Preview</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1BaL6rm9NzTd6qlJfnTolV?utm_source=generator" width="100%" height="652" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <h1>Song Downloads</h1>
+        <h3>Full Album Download Links:</h3>
+        <a href="Will_Wood_SELF-iSH_Album.zip" download>Album Download</a>
+        <ol>
+            <li><a href="Self- - Will Wood and the Tapeworms.mp3" download>Self -</a></li>
+            <li><a href="2012 - Will Wood and the Tapeworms.mp3" download>2012</a></li>
+            <li><a href="Cotard_s Solution _Anatta_ Dukkha_ Anicca_ - Will Wood and the Tapeworms.mp3" download>Cotard's Solution (Anatta, Dukkha, Anicc)</a></li>
+            <li><a href="Mr. Capgras Encounters a Secondhand Vanity_ Tulpamancer_s Prosopagnosia _ Pareidolia _As Direct Result of Trauma to Fusiform Gyrus_ - Will Wood and the Tapeworms.mp3" download>Mr. Capgras Encounters a Secondhand Vanity: Tulpamancer's Prosopagnosia: Pareidolia (As Direct Result of Trauma to Fusiform Gyrus)</a></li>
+            <li><a href="The Song with Five Names a.k.a. Soapbox Tao a.k.a. Checkmate Atheists_ a.k.a. Neospace Government _A.K.A. You Can Never Know_ - Will Wood and the Tapeworms.mp3" download>The Song with Five Names a.k.a. Soapbox Tao a.k.a. Checkmate Atheists! a.k.a. Neospace Government (A.K.A. You Can Never Know)</a></li>
+            <li><a href="Hand Me My Shovel_ I_m Going In_ - Will Wood and the Tapeworms.mp3" download>Hand Me My Shovel, I'm Going In!</a></li>
+            <li><a href="Dr. Sunshine Is Dead - Will Wood and the Tapeworms.mp3" download>Dr. Sunshine Is Dead</a></li>
+            <li><a href="-ish - Will Wood and the Tapeworms.mp3" download>-ish</a></li>
+        </ol>
+
+        <!-- STREAMING
+
+        <div>
+            <button class="button bblack" onclick="showContent('Self-')">Self -</button>
+            <button class="button bblack" onclick="showContent('2012')">2012</button>
+            <button class="button bblack" onclick="showContent('Cotard')">Cotard's Solution Anatta Dukkha Anicca</button>
+            <button class="button bblack" onclick="showContent('Mr')">Mr. Capgras Encounters a Secondhand Vanity</button>
+            <button class="button bblack" onclick="showContent('The')">The Song with Five Names</button>
+            <button class="button bblack" onclick="showContent('Hand')">Hand Me My Shovel Im Going In</button>
+            <button class="button bblack" onclick="showContent('Dr')">Dr. Sunshine Is Dead</button>
+            <button class="button bblack" onclick="showContent('-ish')">-ish</button>
+        </div>
+
+        <div id="Self-" class="content">
+            <audio controls>
+                <source src="Self- - Will Wood and the Tapeworms.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="2012" class="content">
+            <audio controls>
+                <source src="2012 - Will Wood and the Tapeworms.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="Cotard" class="content">
+            <audio controls>
+                <source src="Cotard_s Solution _Anatta_ Dukkha_ Anicca_ - Will Wood and the Tapeworms.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="Mr" class="content">
+            <audio controls>
+                <source src="Mr. Capgras Encounters a Secondhand Vanity_ Tulpamancer_s Prosopagnosia _ Pareidolia _As Direct Result of Trauma to Fusiform Gyrus_ - Will Wood and the Tapeworms.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="The" class="content">
+            <audio controls>
+                <source src="The Song with Five Names a.k.a. Soapbox Tao a.k.a. Checkmate Atheists_ a.k.a. Neospace Government _A.K.A. You Can Never Know_ - Will Wood and the Tapeworms.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="Hand" class="content">
+            <audio controls>
+                <source src="Hand Me My Shovel_ I_m Going In_ - Will Wood and the Tapeworms.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="Dr" class="content">
+            <audio controls>
+                <source src="Dr. Sunshine Is Dead - Will Wood and the Tapeworms.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="-ish" class="content">
+            <audio controls>
+                <source src="-ish - Will Wood and the Tapeworms.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+
+
+        <div id="2012" class="content">
+            <p>wompy</p>
+            <audio src="2012 - Will Wood and the Tapeworms.mp3" width="200" height="100">
+        </div>
+
+
+        <script>
+            showContent('Self-')
+            function showContent(contentId) {
+                const contents = document.querySelectorAll('.content');
+                contents.forEach(content => {   
+                    content.classList.remove('active');
+                });
+
+                const activeContent = document.getElementById(contentId);
+                if (activeContent) {
+                    activeContent.classList.add('active');
+                }
+            }
+
+            // function nextSong() {
+            //     const contents = document.querySelectorAll('.content');
+            //     contents.forEach(content => {   
+            //         content.classList.remove('active');
+            //     });
+
+            //     if (activeContent) {
+            //         activeContent.classList.add('active');
+            //     }
+
+            // }
+        </script> -->
+    </body>
+</html>

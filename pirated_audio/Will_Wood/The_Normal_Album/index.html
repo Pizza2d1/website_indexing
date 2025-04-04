@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Normal Album</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #fffadb;
+        }
+        .content {
+            display: none;
+            margin-top: 20px;
+        }
+        .content.active {
+            display: block;
+        }
+        .button {
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+
+        .bgreen {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #04AA6D;
+        }
+        .bgreen:hover {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .bblue {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #3166c9;
+        }
+        .bblue:hover {
+            background-color: #3166c9;
+            color: white;
+        }
+
+        .bred {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #d30f0f;
+        }
+        .bred:hover {
+            background-color: #d30f0f;
+            color: white;
+        }
+
+        .borange {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #d30f0f;
+        }
+        .borange:hover {
+            background-color: #d30f0f;
+            color: white;
+        }
+
+        .bblack {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #000000;
+        }
+        .bblack:hover {
+            background-color: #000000;
+            color: white;
+        }
+
+    </style>
+    </head>
+    <body>
+        <h3><a href="../index.html">BACK</a></h3>
+        <h1>WILL WOOD!</h1>
+        <img src="/assets/the_normal_album_cover.png" alt="Title page" width="300">
+
+        <p>Preview</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3e4el0X3Rqx0Lms74bUrkJ?utm_source=generator" width="100%" height="652" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <h1>Song Downloads</h1>
+        <h3>Full Album Download Links:</h3>
+        <a href="Will_Wood_The_Normal_Album_Album.zip"" download>Album Download</a>
+        <ol>
+            <li><a href="Suburbia Overture _ Greetings from Mary Bell Township! _ (Vampire) Culture _ Love Me, Normally - Will Wood.mp3" download>Suburbia Overture / Greetings from Mary Bell Township! / (Vampire) Culture / Love Me, Normally</a></li>
+            <li><a href="2econd 2ight 2eer (that was fun, goodbye.).mp3" download>2econd 2ight 2eer (that was fun, goodbye.)</a></li>
+            <li><a href="Laplace's Angel.mp3" download>Laplace's Angel (Hurt People? Hurt People!)</a></li>
+            <li><a href="I _ Me _ Myself - Will Wood.mp3" download>I / Me / Myself</a></li>
+            <li><a href="…well, better than the alternative.mp3" download>…well, better than the alternative</a></li>
+            <li><a href="Outliars and Hyppocrates: a fun fact about apples.mp3" download>Outliars and Hyppocrates: a fun fact about apples</a></li>
+            <li><a href="BlackBoxWarrior - OKULTRA.mp3" download>BlackBoxWarrior - OKULTRA</a></li>
+            <li><a href="Marsha, Thankk You for the Dialectics, but I Need You to Leave.mp3" download>Marsha, Thankk You for the Dialectics, but I Need You to Leave</a></li>
+            <li><a href="Love, Me Normally.mp3" download>Love, Me Normally</a></li>
+            <li><a href="Memento Mori: the most important thing in the world.mp3" download>Memento Mori: the most important thing in the world</a></li>
+        </ol>
+
+        <!--
+        <div>
+            <button class="button bblack" onclick="showContent('Suburbia')">Suburbia Overture / Greetings from Mary Bell Township! / (Vampire) Culture / Love Me, Normally</button>
+            <button class="button bblack" onclick="showContent('2econd')">2econd 2ight 2eer (that was fun, goodbye.)</button>
+            <button class="button bblack" onclick="showContent('Laplace')">Laplace's Angel (Hurt People? Hurt People!)</button>
+            <button class="button bblack" onclick="showContent('I')">I / Me / Myself</button>
+            <button class="button bblack" onclick="showContent('well')">…well, better than the alternative</button>
+            <button class="button bblack" onclick="showContent('Outliars')">Outliars and Hyppocrates: a fun fact about apples</button>
+            <button class="button bblack" onclick="showContent('BlackBoxWarrior')">BlackBoxWarrior - OKULTRA</button>
+            <button class="button bblack" onclick="showContent('Marsha')">Marsha, Thankk You for the Dialectics, but I Need You to Leave</button>
+            <button class="button bblack" onclick="showContent('Love')">Love, Me Normally</button>
+            <button class="button bblack" onclick="showContent('Memento')">Memento Mori: the most important thing in the world</button>
+        </div>
+        
+        <div id="Suburbia" class="content">
+            <audio controls>
+                <source src="Suburbia Overture _ Greetings from Mary Bell Township! _ (Vampire) Culture _ Love Me, Normally - Will Woo.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="2second" class="content">
+            <audio controls>
+                <source src="2econd 2ight 2eer (that was fun, goodbye..mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="Laplace" class="content">
+            <audio controls>
+                <source src="Laplace’s Angel (Hurt People? Hurt People!.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="I" class="content">
+            <audio controls>
+                <source src="I _ Me _ Myself - Will Woo.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="well" class="content">
+            <audio controls>
+                <source src="…well, better than the alternativ.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="Outliars" class="content">
+            <audio controls>
+                <source src="Outliars and Hyppocrates: a fun fact about apple.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="BlackBoxWarrior" class="content">
+            <audio controls>
+                <source src="BlackBoxWarrior - OKULTR.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="Marsha" class="content">
+            <audio controls>
+                <source src="Marsha, Thankk You for the Dialectics, but I Need You to Leav.mp3" type="audio/mp3">
+            </audio>
+        </div>              
+        <div id="Love" class="content">
+            <audio controls>
+                <source src="Love, Me Normall.mp3" type="audio/mp3">
+            </audio>
+        </div>     
+        <div id="Memento" class="content">
+            <audio controls>
+                <source src="Memento Mori: the most important thing in the worl.mp3" type="audio/mp3">
+            </audio>
+        </div>     
+
+
+        <div id="" class="content">
+            <p>wompy</p>
+            <audio src="2012 - Will Wood and the Tapeworm.mp3" width="200" height="100">
+        </div>
+
+
+        <script>
+            showContent('Self-')
+            function showContent(contentId) {
+                const contents = document.querySelectorAll('.content');
+                contents.forEach(content => {   
+                    content.classList.remove('active');
+                });
+
+                const activeContent = document.getElementById(contentId);
+                if (activeContent) {
+                    activeContent.classList.add('active');
+                }
+            }
+
+            // function nextSong() {
+            //     const contents = document.querySelectorAll('.content');
+            //     contents.forEach(content => {   
+            //         content.classList.remove('active');
+            //     });
+
+            //     if (activeContent) {
+            //         activeContent.classList.add('active');
+            //     }
+
+            // }
+        </script> -->
+    </body>
+</html>
