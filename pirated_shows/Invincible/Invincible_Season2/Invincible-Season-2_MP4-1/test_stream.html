@@ -149,11 +149,13 @@
             const contents = document.querySelectorAll('.content');
             contents.forEach(content => {
                 content.classList.remove('active');
+                content.classList.unload('active')
             });
 
             const activeContent = document.getElementById(contentId);
             if (activeContent) {
                 activeContent.classList.add('active');
+                activeContent.classList.load('active')
             }
         }
     </script>
