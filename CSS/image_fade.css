@@ -8,5 +8,7 @@
   font: 2em/1.6em Arial;
   -webkit-mask: var(--mask); 
   mask: var(--mask);
-  
+}
+img{
+  width: max(40%, 500px);
 }
