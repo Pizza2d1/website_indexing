@@ -1,6 +1,25 @@
 restricted_videos.txt
 update_restricted.sh
 
+iso_images/Parrot-security-6.3.2_amd64.iso
+iso_images/Windows.iso
+iso_images/alpine-standard-3.21.2-aarch64.iso
+iso_images/alpine-virt-3.21.2-aarch64.is
+iso_images/android-x86_64-9.0-r2-k49.iso
+iso_images/android-x86_64-9.0-r2.iso
+iso_images/archlinux-2024.10.01-x86_64.iso
+iso_images/archlinux-2024.11.01-x86_64.iso
+iso_images/archlinux-2025.02.01-x86_64.iso
+iso_images/cosmicIso-v2024.10.05-32.iso
+iso_images/kali-linux-2024.3-virtualbox-amd64.7z
+iso_images/kali-linux-2025.1a-installer-amd64.iso
+iso_images/kali-linux-2025.1a-installer-purple-amd64.iso
+iso_images/linuxmint-22.1-cinnamon-64bit.iso
+iso_images/ubuntu-18.04.6-desktop-amd64.iso
+iso_images/ubuntu-22.04.3-desktop-amd64.iso
+iso_images/ubuntu-24.04.1-desktop-amd64.iso
+iso_images/ubuntu-24.04.2-live-server-amd64.iso
+
 # START VIDEO FILES (DELETE THESE WHEN REFRESHING THEM)
 movies/Sonic3/Sonic3better.mp4
 movies/Shrek3/Shrek3.mp4
